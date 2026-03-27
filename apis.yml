@@ -1,17 +1,65 @@
 aid: spendflo
 name: Spendflo
 description: >-
-  Spendflo provides API capabilities.
+  Spendflo is an AI-native procurement platform that centralizes intake-to-pay,
+  enforces policy, and reduces SaaS and vendor spend by combining AI-powered
+  automation with expert-led negotiation. The platform provides real-time usage,
+  spend, and sentiment insights to help organizations optimize their software
+  investments.
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - API
+  - SaaS Management
+  - Procurement
+  - Spend Management
+  - Vendor Management
+  - License Management
+  - Usage Analytics
 url: >-
   https://raw.githubusercontent.com/api-evangelist/spendflo/refs/heads/main/apis.yml
 created: '2026-03-16'
-modified: '2026-03-16'
+modified: '2026-03-27'
 specificationVersion: '0.19'
-apis: []
+apis:
+  - aid: spendflo:spendflo-api
+    name: Spendflo API
+    description: >-
+      The Spendflo API provides programmatic access to SaaS spend management,
+      procurement workflows, vendor management, and usage analytics data. It
+      enables integrations with finance, procurement, and e-signature systems
+      for frictionless data flow.
+    humanURL: https://www.spendflo.com/
+    tags:
+      - SaaS Management
+      - Procurement
+      - Spend Management
+      - Vendor Management
+    properties:
+      - type: Documentation
+        url: https://www.spendflo.com/
+      - type: IntegrationDocumentation
+        url: https://www.spendflo.com/integrations
+common:
+  - type: Website
+    url: https://www.spendflo.com/
+  - type: Blog
+    url: https://www.spendflo.com/blog
+  - type: About
+    url: https://www.spendflo.com/what-is-spendflo
+  - type: Pricing
+    url: https://www.spendflo.com/vendors/spendflo
+  - type: Integrations
+    url: https://www.spendflo.com/integrations
+  - type: Vendors
+    url: https://www.spendflo.com/vendors
+  - type: UsageAnalytics
+    url: https://www.spendflo.com/usage-analytics
+  - type: VendorManagement
+    url: https://www.spendflo.com/vendor-management
+  - type: Login
+    url: https://app.spendflo.com/
+  - type: SignUp
+    url: https://www.spendflo.com/
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
