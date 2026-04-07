@@ -9,12 +9,12 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - SaaS Management
-  - Procurement
-  - Spend Management
-  - Vendor Management
   - License Management
+  - Procurement
+  - SaaS Management
+  - Spend Management
   - Usage Analytics
+  - Vendor Management
 url: >-
   https://raw.githubusercontent.com/api-evangelist/spendflo/refs/heads/main/apis.yml
 created: '2026-03-16'
@@ -30,8 +30,8 @@ apis:
       for frictionless data flow.
     humanURL: https://www.spendflo.com/
     tags:
-      - SaaS Management
       - Procurement
+      - SaaS Management
       - Spend Management
       - Vendor Management
     properties:
