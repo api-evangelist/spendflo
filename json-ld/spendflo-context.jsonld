@@ -1,0 +1,79 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "spendflo": "https://spendflo.com/vocab/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "gr": "http://purl.org/goodrelations/v1#",
+
+    "Vendor": {
+      "@id": "spendflo:Vendor",
+      "@type": "@id",
+      "schema:description": "A software vendor tracked in the Spendflo procurement platform."
+    },
+    "PurchaseRequest": {
+      "@id": "spendflo:PurchaseRequest",
+      "@type": "@id",
+      "schema:description": "A formal request to acquire a new software tool or license."
+    },
+    "Contract": {
+      "@id": "spendflo:Contract",
+      "@type": "@id",
+      "schema:description": "A vendor agreement with terms, pricing, and renewal dates."
+    },
+    "LicenseAllocation": {
+      "@id": "spendflo:LicenseAllocation",
+      "@type": "@id",
+      "schema:description": "An assignment of software license seats to users."
+    },
+    "SpendReport": {
+      "@id": "spendflo:SpendReport",
+      "@type": "@id",
+      "schema:description": "An aggregated view of SaaS spending across vendors."
+    },
+
+    "annualSpend": {
+      "@id": "spendflo:annualSpend",
+      "@type": "xsd:decimal"
+    },
+    "licenseCount": {
+      "@id": "spendflo:licenseCount",
+      "@type": "xsd:integer"
+    },
+    "activeUsers": {
+      "@id": "spendflo:activeUsers",
+      "@type": "xsd:integer"
+    },
+    "utilizationPercent": {
+      "@id": "spendflo:utilizationPercent",
+      "@type": "xsd:decimal"
+    },
+    "renewalDate": {
+      "@id": "spendflo:renewalDate",
+      "@type": "xsd:date"
+    },
+    "contractStartDate": {
+      "@id": "spendflo:contractStartDate",
+      "@type": "xsd:date"
+    },
+    "paymentCycle": {
+      "@id": "spendflo:paymentCycle",
+      "@type": "@vocab"
+    },
+    "vendorStatus": {
+      "@id": "spendflo:vendorStatus",
+      "@type": "@vocab"
+    },
+
+    "name": "schema:name",
+    "description": "schema:description",
+    "url": "schema:url",
+    "category": "schema:category",
+    "dateCreated": "schema:dateCreated",
+    "dateModified": "schema:dateModified",
+    "Organization": "schema:Organization",
+    "SoftwareApplication": "schema:SoftwareApplication",
+    "price": "gr:hasCurrencyValue",
+    "currency": "gr:hasCurrency"
+  }
+}

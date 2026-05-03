@@ -1,0 +1,98 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://spendflo.com/schemas/vendor",
+  "title": "Spendflo Vendor",
+  "description": "Represents a software vendor tracked in the Spendflo procurement platform.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the vendor record."
+    },
+    "name": {
+      "type": "string",
+      "description": "Vendor or software product name."
+    },
+    "category": {
+      "type": "string",
+      "description": "Software category (e.g., CRM, DevOps, HR, Analytics)."
+    },
+    "website": {
+      "type": "string",
+      "format": "uri",
+      "description": "Vendor's primary website URL."
+    },
+    "annualSpend": {
+      "type": "number",
+      "minimum": 0,
+      "description": "Total annual contract value in USD."
+    },
+    "currency": {
+      "type": "string",
+      "default": "USD",
+      "description": "Currency for financial fields (ISO 4217 code)."
+    },
+    "licenseCount": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Number of purchased license seats."
+    },
+    "activeUsers": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Number of users actively using the tool."
+    },
+    "utilizationPercent": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100,
+      "description": "Percentage of licenses being actively used."
+    },
+    "renewalDate": {
+      "type": "string",
+      "format": "date",
+      "description": "Contract renewal date."
+    },
+    "contractStartDate": {
+      "type": "string",
+      "format": "date",
+      "description": "Contract start date."
+    },
+    "paymentCycle": {
+      "type": "string",
+      "enum": ["monthly", "quarterly", "annual", "multi-year"],
+      "description": "Billing frequency."
+    },
+    "status": {
+      "type": "string",
+      "enum": ["active", "pending-renewal", "in-negotiation", "cancelled", "under-review"],
+      "description": "Current vendor relationship status."
+    },
+    "owner": {
+      "type": "object",
+      "description": "Internal owner responsible for this vendor.",
+      "properties": {
+        "name": { "type": "string" },
+        "email": { "type": "string", "format": "email" },
+        "department": { "type": "string" }
+      }
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Labels for categorizing the vendor."
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Timestamp when the vendor was added to Spendflo."
+    },
+    "updatedAt": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Timestamp of the last vendor record update."
+    }
+  },
+  "required": ["id", "name", "status"],
+  "additionalProperties": false
+}

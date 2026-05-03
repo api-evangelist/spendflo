@@ -1,0 +1,148 @@
+vocabulary:
+  name: Spendflo Vocabulary
+  description: >-
+    Domain vocabulary for Spendflo, an AI-native procurement platform covering
+    SaaS spend management, vendor management, procurement workflows, and
+    contract lifecycle management.
+  created: '2026-05-02'
+  modified: '2026-05-02'
+
+  terms:
+    - term: Intake-to-Pay
+      definition: >-
+        The end-to-end procurement lifecycle from initial purchase request
+        submission through approval workflows to payment processing and vendor
+        onboarding, managed centrally within Spendflo.
+      related:
+        - Procurement Workflow
+        - Purchase Request
+        - Vendor Onboarding
+
+    - term: Vendor Management
+      definition: >-
+        The process of onboarding, tracking, and managing third-party software
+        vendors and suppliers, including contract terms, renewal dates, pricing,
+        and usage data within Spendflo.
+      related:
+        - Supplier
+        - Contract Management
+        - SaaS Spend
+
+    - term: SaaS Spend Management
+      definition: >-
+        The practice of tracking, analyzing, and optimizing an organization's
+        spending on software-as-a-service subscriptions, licenses, and tools
+        to eliminate waste and negotiate better terms.
+      related:
+        - Usage Analytics
+        - License Management
+        - Spend Management
+
+    - term: Purchase Request
+      definition: >-
+        A formal request to acquire new software, a vendor, or an additional
+        license seat, submitted through Spendflo's intake flow and routed
+        through approval workflows.
+      related:
+        - Intake-to-Pay
+        - Procurement Workflow
+
+    - term: Procurement Workflow
+      definition: >-
+        A configurable, policy-driven sequence of approval steps that a purchase
+        request must pass through before authorization and payment, built using
+        Spendflo's Workflow Builder or AI Workflow Builder.
+      related:
+        - Intake-to-Pay
+        - Approval Policy
+
+    - term: Contract Management
+      definition: >-
+        The storage, tracking, and analysis of vendor contracts within Spendflo,
+        including renewal date alerts, term extraction, and e-signature integrations
+        (Ironclad, DocuSign).
+      related:
+        - Vendor Management
+        - Renewal Management
+
+    - term: Usage Analytics
+      definition: >-
+        Insights into how much of a purchased software license or subscription
+        is being actively used, helping identify wasteful spending and
+        right-sizing opportunities.
+      related:
+        - License Management
+        - SaaS Spend Management
+
+    - term: License Management
+      definition: >-
+        The process of tracking software license allocations, reassignments,
+        and reclamations to ensure optimal utilization of purchased seats.
+      related:
+        - Usage Analytics
+        - SaaS Spend Management
+
+    - term: Pricing Benchmarks
+      definition: >-
+        Spendflo's database of negotiated pricing data across similar companies
+        and contract sizes, used to evaluate whether a vendor quote is competitive.
+      related:
+        - Negotiation
+        - Vendor Management
+
+    - term: Flash AI
+      definition: >-
+        Spendflo's suite of AI agents including the Contract Analyst, Payables
+        Agent, Procurement Analyst, and AI Workflow Builder that automate and
+        accelerate procurement tasks.
+      related:
+        - AI Workflow Builder
+        - Contract Analyst
+        - Procurement Analyst
+
+    - term: AI Workflow Builder
+      definition: >-
+        A Spendflo feature allowing users to design procurement approval workflows
+        through conversational AI prompts rather than traditional form-based
+        workflow configuration.
+      related:
+        - Flash AI
+        - Procurement Workflow
+
+    - term: Conversational Reporting
+      definition: >-
+        A Spendflo feature enabling users to query procurement, spend, and vendor
+        data using natural language questions rather than building traditional
+        dashboard reports.
+      related:
+        - Flash AI
+        - Usage Analytics
+
+    - term: Third-Party Risk Assessment
+      definition: >-
+        The process of evaluating vendor security posture, compliance
+        certifications, and business continuity for risk management during
+        vendor onboarding.
+      related:
+        - Vendor Onboarding
+        - Vendor Management
+
+    - term: Procurement as a Service (PaaS)
+      definition: >-
+        Spendflo's managed service offering where dedicated procurement experts
+        handle vendor negotiations, renewals, and SaaS purchases on behalf
+        of the customer.
+      related:
+        - Negotiation
+        - Managed Services
+
+  tags:
+    - Procurement
+    - SaaS Management
+    - Spend Management
+    - Vendor Management
+    - License Management
+    - Contract Management
+    - Usage Analytics
+    - AI Automation
+    - Finance Integrations

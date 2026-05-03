@@ -1,0 +1,122 @@
+{
+  "title": "Spendflo Vendor Structure",
+  "description": "Hierarchical structure of a Spendflo vendor record.",
+  "type": "object",
+  "fields": [
+    {
+      "name": "id",
+      "type": "string",
+      "required": true,
+      "description": "Unique vendor identifier."
+    },
+    {
+      "name": "name",
+      "type": "string",
+      "required": true,
+      "description": "Vendor or software product name."
+    },
+    {
+      "name": "category",
+      "type": "string",
+      "required": false,
+      "description": "Software category."
+    },
+    {
+      "name": "website",
+      "type": "string",
+      "format": "uri",
+      "required": false,
+      "description": "Vendor website URL."
+    },
+    {
+      "name": "annualSpend",
+      "type": "number",
+      "required": false,
+      "description": "Annual contract value in USD."
+    },
+    {
+      "name": "currency",
+      "type": "string",
+      "required": false,
+      "default": "USD",
+      "description": "ISO 4217 currency code."
+    },
+    {
+      "name": "licenseCount",
+      "type": "integer",
+      "required": false,
+      "description": "Number of purchased seats."
+    },
+    {
+      "name": "activeUsers",
+      "type": "integer",
+      "required": false,
+      "description": "Number of active license users."
+    },
+    {
+      "name": "utilizationPercent",
+      "type": "number",
+      "required": false,
+      "description": "License utilization rate (0-100)."
+    },
+    {
+      "name": "renewalDate",
+      "type": "string",
+      "format": "date",
+      "required": false,
+      "description": "Contract renewal date."
+    },
+    {
+      "name": "contractStartDate",
+      "type": "string",
+      "format": "date",
+      "required": false,
+      "description": "Contract start date."
+    },
+    {
+      "name": "paymentCycle",
+      "type": "enum",
+      "values": ["monthly", "quarterly", "annual", "multi-year"],
+      "required": false,
+      "description": "Billing frequency."
+    },
+    {
+      "name": "status",
+      "type": "enum",
+      "values": ["active", "pending-renewal", "in-negotiation", "cancelled", "under-review"],
+      "required": true,
+      "description": "Current vendor relationship status."
+    },
+    {
+      "name": "owner",
+      "type": "object",
+      "required": false,
+      "description": "Internal owner of this vendor relationship.",
+      "fields": [
+        { "name": "name", "type": "string", "required": false },
+        { "name": "email", "type": "string", "format": "email", "required": false },
+        { "name": "department", "type": "string", "required": false }
+      ]
+    },
+    {
+      "name": "tags",
+      "type": "string[]",
+      "required": false,
+      "description": "Labels for categorizing the vendor."
+    },
+    {
+      "name": "createdAt",
+      "type": "string",
+      "format": "date-time",
+      "required": false,
+      "description": "Creation timestamp."
+    },
+    {
+      "name": "updatedAt",
+      "type": "string",
+      "format": "date-time",
+      "required": false,
+      "description": "Last update timestamp."
+    }
+  ]
+}

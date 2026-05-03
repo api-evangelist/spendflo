@@ -1,0 +1,41 @@
+extends: "spectral:oas"
+
+rules:
+  spendflo-operationid-required:
+    description: All API operations should have an operationId for Spendflo integration mapping.
+    message: "Operation at {{path}} must have an operationId."
+    severity: error
+    given: "$.paths[*][get,post,put,patch,delete,options,head]"
+    then:
+      field: operationId
+      function: truthy
+
+  spendflo-summary-required:
+    description: All API operations should have a summary describing the procurement action.
+    message: "Operation {{path}} is missing a summary."
+    severity: error
+    given: "$.paths[*][get,post,put,patch,delete]"
+    then:
+      field: summary
+      function: truthy
+
+  spendflo-tags-required:
+    description: Operations should be tagged by procurement domain (Vendors, Contracts, Spend, etc.).
+    message: "Operation {{path}} should have at least one domain tag."
+    severity: warn
+    given: "$.paths[*][get,post,put,patch,delete]"
+    then:
+      field: tags
+      function: truthy
+
+  spendflo-error-responses-defined:
+    description: Operations should document error responses for procurement workflow error handling.
+    message: "Operation {{path}} should define error response codes (400, 401, 403, 404)."
+    severity: warn
+    given: "$.paths[*][post,put,patch,delete].responses"
+    then:
+      function: schema
+      functionOptions:
+        schema:
+          type: object
+          minProperties: 2

@@ -1,0 +1,23 @@
+{
+  "id": "vendor-salesforce-crm",
+  "name": "Salesforce Sales Cloud",
+  "category": "CRM",
+  "website": "https://www.salesforce.com",
+  "annualSpend": 84000,
+  "currency": "USD",
+  "licenseCount": 120,
+  "activeUsers": 97,
+  "utilizationPercent": 80.8,
+  "renewalDate": "2027-01-31",
+  "contractStartDate": "2025-02-01",
+  "paymentCycle": "annual",
+  "status": "active",
+  "owner": {
+    "name": "Sarah Johnson",
+    "email": "sarah.johnson@example.com",
+    "department": "Sales Operations"
+  },
+  "tags": ["crm", "sales", "revenue-team", "tier-1"],
+  "createdAt": "2025-01-15T09:00:00Z",
+  "updatedAt": "2026-04-20T14:22:00Z"
+}
