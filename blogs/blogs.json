@@ -1,0 +1,13 @@
+{
+  "repo": "spendflo",
+  "feeds": [
+    {
+      "source": "https://www.spendflo.com/blog",
+      "feed_url": "https://www.spendflo.com/blog/rss.xml",
+      "saved": 10,
+      "title": "Spendflo Blog"
+    }
+  ],
+  "post_count": 10,
+  "fetched": "2026-05-03T23:37:02Z"
+}
