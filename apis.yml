@@ -89,6 +89,10 @@ common:
     url: https://www.spendflo.com/book-a-demo
   - type: LinkedIn
     url: https://www.linkedin.com/company/spendflo
+integrations:
+  - name: SOC2
+  - name: Certification
+  - name: GDPR
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
