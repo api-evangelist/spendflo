@@ -2,12 +2,20 @@
   "repo": "spendflo",
   "feeds": [
     {
-      "source": "https://www.spendflo.com/blog",
+      "source": "https://www.spendflo.com/blog/rss.xml",
       "feed_url": "https://www.spendflo.com/blog/rss.xml",
-      "title": "Spendflo Blog",
-      "saved": 39
+      "title": "",
+      "saved": 10,
+      "method": "feed"
+    },
+    {
+      "source": "https://www.spendflo.com/",
+      "feed_url": "https://www.spendflo.com/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
     }
   ],
-  "post_count": 49,
-  "fetched": "2026-05-17T20:20:35Z"
+  "post_count": 109,
+  "fetched": "2026-06-01T23:35:02Z"
 }
