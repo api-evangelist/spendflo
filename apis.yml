@@ -85,7 +85,7 @@ common:
     url: https://help.spendflo.com/support/home
   - type: Login
     url: https://app.spendflo.com/
-  - type: SignUp
+  - type: Signup
     url: https://www.spendflo.com/book-a-demo
   - type: LinkedIn
     url: https://www.linkedin.com/company/spendflo
