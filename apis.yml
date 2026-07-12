@@ -65,6 +65,12 @@ apis:
         url: >-
           https://raw.githubusercontent.com/api-evangelist/spendflo/refs/heads/main/vocabulary/spendflo-vocabulary.yml
 common:
+  - type: TrustCenter
+    url: security/spendflo-trust-center.yml
+  - type: VulnerabilityDisclosure
+    url: security/spendflo-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/spendflo-domain-security.yml
   - type: Website
     url: https://www.spendflo.com/
   - type: Blog
