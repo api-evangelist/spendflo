@@ -1,0 +1,27 @@
+# Front Door AI Index — spendflo — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: spendflo
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.spendflo.com
+  final_host: www.spendflo.com
+  ownership: own
+  owner: spendflo
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 19
+  host_score: 19
+  density: 28.02
+  words: 678
+  tiers:
+    agentic: 5
+    core: 14
+    model: 0
+  ambiguous: 7
+  top_terms:
+    AI: 14
+    agent: 7
+    AI agent: 5
