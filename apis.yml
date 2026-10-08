@@ -88,6 +88,12 @@ apis:
         url: >-
           https://raw.githubusercontent.com/api-evangelist/spendflo/refs/heads/main/vocabulary/spendflo-vocabulary.yml
 common:
+  - type: Plans
+    url: plans/spendflo-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/spendflo-rate-limits.yml
+  - type: FinOps
+    url: finops/spendflo-finops.yml
   - type: TrustCenter
     url: security/spendflo-trust-center.yml
   - type: VulnerabilityDisclosure
