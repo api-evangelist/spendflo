@@ -64,97 +64,142 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Spendflo is an AI-native procurement platform that centralizes intake-to-pay, enforces policy, and reduces SaaS and vendor spend by combining AI-powered automation (Flash AI) with expert-led negotiation. The platform provides real-time usage, spend, and sentiment insights to help organizations optimize their software investments.
+Spendflo is an AI-native procurement platform that centralizes intake-to-pay, enforces procurement policy, and reduces SaaS and vendor spend by combining AI-powered automation with expert-led negotiation. The Flash AI suite includes a Contract Analyst, Payables Agent, Procurement Analyst, and AI Workflow Builder. The platform provides intake management, supplier management, PO management, contract management, usage analytics, conversational reporting, and pricing benchmarks, with native integrations to finance (NetSuite, QuickBooks, Coupa, Xero), SSO (Okta, Azure AD), HRMS (BambooHR, HiBob), procurement (Jira, Ironclad, DocuSign, Slack), and spend tools.
 
-**URL:** [https://www.spendflo.com](https://www.spendflo.com)
+**Areas:** License Management · Procurement · SaaS Management · Spend Management · Usage Analytics · Vendor Management
 
-## Products
+## Spendflo on APIs.io
 
-### Flash AI Suite
-- **Contract Analyst** — AI-powered contract term extraction and analysis
-- **Payables Agent** — Automated payment processing and PO management
-- **Procurement Analyst** — AI-driven spend insights and benchmarking
-- **AI Workflow Builder** — Design procurement workflows through conversational AI
+Everything profiled for Spendflo is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/spendflo/](https://apis.io/providers/spendflo/)** — or go straight to one of the APIs or properties below.
 
-### Core Platform
-- **Intake Management** — Conversational procurement intake and approval routing
-- **Supplier Management** — Vendor onboarding, risk assessment, and lifecycle tracking
-- **Contract Management** — Contract storage, renewal alerts, e-signature integrations
-- **Usage Analytics** — License utilization tracking and right-sizing recommendations
-- **Pricing Benchmarks** — Negotiated pricing data for competitive vendor evaluations
-- **Conversational Reporting** — Natural language querying of spend and vendor data
-- **PO Management** — Purchase order creation and approval workflows
+### APIs (1)
 
-## Key Integrations
+- [Spendflo API](https://apis.io/apis/spendflo/spendflo-api/) — The Spendflo API provides programmatic access to SaaS spend management, procurement workflows, vendor management, usage analytics, and contract management…
 
-| Category | Integrations |
-|----------|-------------|
-| Finance | NetSuite, QuickBooks, Coupa, Xero, Sage, Zoho Books |
-| SSO | Okta, Azure AD, Google SSO, JumpCloud, OneLogin, Ping SSO |
-| HRMS | BambooHR, HiBob, OneLogin |
-| Procurement | Jira, Ironclad, DocuSign, Atlassian, Smartsheet |
-| Communication | Slack, Zendesk, Freshdesk, Zoom, Calendly |
-| CRM & Sales | Salesforce, HubSpot, Pipedrive |
-| Productivity | Asana, Monday, Trello, Figma, Box, Looker, Tableau |
+### Published properties
 
-## Scope
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-- **Type:** Index
-- **Access:** 3rd-Party
+#### JSON Schema (1)
 
-## Tags
+The data models the API reads and writes.
 
-License Management, Procurement, SaaS Management, Spend Management, Usage Analytics, Vendor Management
+- [Spendflo Vendor](https://apis.io/schemas/spendflo/spendflo-vendor/)
 
-## Timestamps
+#### JSON Structure (1)
 
-- **Created:** 2026-03-16
-- **Modified:** 2026-05-02
+Data models expressed in JSON Structure.
 
-## APIs
+- [Spendflo Vendor Structure](https://apis.io/json-structure/spendflo/spendflo-vendor-structure/)
 
-### Spendflo API
+#### JSON-LD (1)
 
-Programmatic access to procurement workflows, vendor management, usage analytics, and contract management.
+Linked-data contexts for the provider's vocabulary.
 
-**Human URL:** [https://www.spendflo.com](https://www.spendflo.com)
+- [Spendflo Context](https://apis.io/jsonld/spendflo/spendflo-context/)
 
-#### Properties
+#### Vocabulary (1)
 
-| Type | URL |
-|------|-----|
-| Help Center | [https://help.spendflo.com/support/home](https://help.spendflo.com/support/home) |
-| Integration Docs | [https://www.spendflo.com/integrations](https://www.spendflo.com/integrations) |
-| Login | [https://app.spendflo.com/](https://app.spendflo.com/) |
-| Demo | [https://www.spendflo.com/book-a-demo](https://www.spendflo.com/book-a-demo) |
+The provider's domain terms, defined.
 
-## Common Resources
+- [Spendflo Vocabulary](https://apis.io/vocabularies/spendflo/spendflo-vocabulary/)
 
-| Type | URL |
-|------|-----|
-| Website | [https://www.spendflo.com](https://www.spendflo.com) |
-| Blog | [https://www.spendflo.com/blog](https://www.spendflo.com/blog) |
-| About | [https://www.spendflo.com/what-is-spendflo](https://www.spendflo.com/what-is-spendflo) |
-| Pricing | [https://www.spendflo.com/pricing](https://www.spendflo.com/pricing) |
-| Integrations | [https://www.spendflo.com/integrations](https://www.spendflo.com/integrations) |
-| Vendors Catalog | [https://www.spendflo.com/vendors](https://www.spendflo.com/vendors) |
-| Usage Analytics | [https://www.spendflo.com/usage-analytics](https://www.spendflo.com/usage-analytics) |
-| Vendor Management | [https://www.spendflo.com/vendor-management](https://www.spendflo.com/vendor-management) |
-| Help Center | [https://help.spendflo.com/support/home](https://help.spendflo.com/support/home) |
-| Login | [https://app.spendflo.com/](https://app.spendflo.com/) |
+#### Examples (1)
 
-## Artifacts
+Example requests and responses.
 
-| Type | File |
-|------|------|
-| JSON Schema | [json-schema/spendflo-vendor-schema.json](json-schema/spendflo-vendor-schema.json) |
-| JSON Structure | [json-structure/spendflo-vendor-structure.json](json-structure/spendflo-vendor-structure.json) |
-| JSON-LD Context | [json-ld/spendflo-context.jsonld](json-ld/spendflo-context.jsonld) |
-| Vocabulary | [vocabulary/spendflo-vocabulary.yml](vocabulary/spendflo-vocabulary.yml) |
-| Example | [examples/spendflo-vendor-example.json](examples/spendflo-vendor-example.json) |
-| Spectral Rules | [rules/spendflo-rules.yml](rules/spendflo-rules.yml) |
+- [Spendflo Vendor Example](https://apis.io/examples/spendflo/spendflo-vendor-example/)
 
-## Maintainers
+#### Governance rules (2)
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+Spectral rulesets for the provider's contracts.
+
+- [Spendflo — jsonschema rules](https://apis.io/rules/spendflo/spendflo-jsonschema-spectral-rules/)
+- [Spendflo API Rules](https://apis.io/rules/spendflo/spendflo-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Spendflo Domain Security](https://apis.io/security/spendflo/spendflo-domain-security/)
+- [Spendflo Trust Center](https://apis.io/security/spendflo/spendflo-trust-center/)
+- [Spendflo Vulnerability Disclosure](https://apis.io/security/spendflo/spendflo-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Spendflo Plans Pricing](https://apis.io/plans/spendflo/spendflo-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Spendflo Rate Limits](https://apis.io/rate-limits/spendflo/spendflo-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Spendflo Finops](https://apis.io/finops/spendflo/spendflo-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.spendflo.com/)
+- [Pricing](https://www.spendflo.com/pricing)
+- [Blog](https://www.spendflo.com/blog)
+
+## API Evangelist rating
+
+**Kin Score 27.3** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 21.9 |
+| Contract governance | 27.3 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 16.7 |
+| Access clarity | 32.9 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 21.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/spendflo/](https://apis.io/providers/spendflo/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Spendflo: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/spendflo/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
